@@ -1,0 +1,25 @@
+//
+//  WisdomFood.pch
+//  wisdomFood
+//
+//  Created by 赵小波 on 2018/5/30.
+//  Copyright © 2018年 sanfangyuan. All rights reserved.
+//
+
+#ifndef WisdomFood_pch
+#define WisdomFood_pch
+
+
+
+#ifdef __OBJC__   //在混编的时候需要判断才可以把oc类导入下面
+
+#import "UIView+AutoFrame.h"
+#import "SizeMacro.h"
+#import "YYCategoriesMacro.h"
+#import "ToolsUtil.h"
+
+#endif //oc文件判断结束
+
+
+
+#endif /* WisdomFood_pch */

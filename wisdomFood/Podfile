@@ -1,0 +1,29 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+target ‘wisdomFood’ do
+
+#网络请求
+pod 'AFNetworking', '~> 3.0.0'
+#图片处理
+pod 'SDWebImage', '~> 3.7.1'
+#添加约束 UI布局
+pod 'Masonry', '~> 0.6.1'
+#刷新
+pod 'MJRefresh', '~> 3.1.12'
+#数据模型 转换
+pod 'MJExtension' , '~> 3.0.13'
+#控制输入框 键盘问题
+pod 'IQKeyboardManager' , '~> 5.0.3'
+#网络加载框
+pod 'MBProgressHUD', '~> 1.0.0'
+#MVVM  函数式编程 
+pod 'ReactiveCocoa' , '2.5'
+
+# 全局滑动
+pod 'FDFullscreenPopGesture'
+# 网络监控
+pod 'Reachability'
+# 正则匹配点击
+pod 'KILabel'
+end
+
